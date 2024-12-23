@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Khởi chạy hiệu ứng tuyết rơi mỗi 2 giây
   setInterval(createSnowflakes, 2000);
 
-  const message = "Chúc em yêu Giáng Sinh vui vẻ!"; // Thông điệp muốn hiển thị
+  const message = "Chúc em yêu Giáng Sinh vui vẻ! "; // Thông điệp muốn hiển thị
   const endMessage = document.querySelector('#endMessage');
   const span = endMessage.querySelector('.endMessage');
   let index = 0;
